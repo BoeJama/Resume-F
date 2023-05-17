@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://external-preview.redd.it/OGSDuXC4k6Xt0jGRKualNLDQsqemJ_0zPe9x3xKtdxQ.jpg?width=640&crop=smart&auto=webp&s=633f905e33a352627d2dfc8306a3c139a645b8c7");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .pikachu {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: goldenrod;
+  }
+  
+  .pikachu img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .pikachu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .pikachu p {
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #666;*/
+  }
+
+  .charizard {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: firebrick;
+  }
+  
+  .charizard img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .charizard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .charizard p {
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #666;*/
+  }
+
+  .bulbasaur {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: forestgreen;
+  }
+  
+  .bulbasaur img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .bulbasaur h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .bulbasaur p {
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #666;*/
+  }
+
+  .squirtle {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: lightseagreen;
+  }
+  
+  .squirtle img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .squirtle h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .squirtle p {
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #666;*/
+  }
+
+  .eevee {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: lightslategray;
+  }
+  
+  .eevee img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .eevee h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .eevee p {
+    font-size: 16px;
+    line-height: 1.5;
+    /*color: #666;*/
+  }
+
+  a {
+    color: black;
+    background-color: gainsboro;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 30%;
+  }
+
+  a:hover {
+    color: gainsboro;
+    background-color: darkslategray;
+  }
+
+  .return {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #353a3b;
+    text-decoration: none;
+    background-color: #e9e1da;
+}
+
+.return:hover {
+    color: #e9e1da;
+    background-color: #353a3b;
+}
