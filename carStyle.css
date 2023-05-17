@@ -1,0 +1,126 @@
+:root {
+    --gray: rgb(37, 37, 37);
+    --green: #04AA6D;
+    --white: #f2f2f2;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 0.75%
+}
+
+body {
+    background-color: var(--gray);
+    background-image: url("https://car-images.bauersecure.com/wp-images/2672/ferrari_purosangue_34.jpg");
+    background-attachment: fixed;
+}
+
+h1 {
+    background-color: var(--green);
+    color: var(--white);
+    margin: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: "Garamond", "Times New Roman", serif;
+}
+
+h3 {
+    background-color: var(--white);
+    color: var(--gray);
+    margin-top: 0%;
+    text-align: center;
+    font-family: "Garamond", "Times New Roman", serif;
+}
+
+p {
+    color: var(--white);
+    text-align: center;
+    font-family: "Monaco", "Lucida Console", sans-serif;
+    float: right;
+    font-size: 25px;
+}
+
+h2 {
+    background-color: var(--gray);
+    color: var(--white);
+    text-align: center;
+    font-family: "Monaco", "Lucida Console", sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h4 {
+    background-color: var(--white);
+    color: var(--gray);
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-align: center;
+    font-family: "Garamond", "Times New Roman", serif;
+}
+
+button {
+    border-color: var(--white);
+    background-color: var(--gray);
+    color: var(--white);
+    font-family: "Monaco", "Lucida Console", sans-serif;
+    text-align: center;
+    padding-right: 48%;
+    padding-left: 48%;
+}
+
+button:hover {
+    background-color: var(--green);
+}
+
+div {
+    text-align: center;
+}
+
+#slogan {
+    margin-bottom: 0%;
+    color:var(--white);
+    background-color: var(--green);
+    padding-bottom: 0.5%;
+}
+
+#buy1 {
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#buy2 {
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    color: var(--white);
+    text-align: center;
+    font-family: "Monaco", "Lucida Console", sans-serif;
+    font-size: 25px;
+}
+
+.return {
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #353a3b;
+    text-decoration: none;
+    background-color: #e9e1da;
+}
+
+.return:hover {
+    color: #e9e1da;
+    background-color: #353a3b;
+}
